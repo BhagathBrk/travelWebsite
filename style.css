@@ -1,0 +1,61 @@
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+:root{
+    --c1:#E30713;
+    --c2:#F5F6F8;
+    --c3:#35374B;
+}
+.main{
+    text-align: center;
+    background-color: var(--c3);
+}
+
+span{
+    font-weight: 800;
+    color: var(--c1);
+}
+.inp input{
+    height: 40px;
+}
+.inp button{
+    height: 40px;   
+}
+.why{
+    text-align: justify;
+}
+.foot{
+    background-color: #35374B;
+    
+}
+nav{
+    position: fixed;
+}
+.icons i{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media(max-width:991px){
+    .card{
+       margin-left: 33px;
+       margin-bottom: 20px;
+    }
+      .img1{
+        width: 25%;
+      }
+      .we{
+        margin-top: 30px;
+      }
+      .msg{
+        text-align: center;
+        margin-right: 50px;
+      }
+    .inp input{
+        margin-right: 10px;
+    }
+}
